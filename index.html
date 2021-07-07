@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Palindrome</title>
+    <link href="./src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 id="title">(palindromeChecker)</h1>
+    </header>
+    <p><i>Submit text to check for palindrome...</i></p>
+    <div class="input">
+      <form>
+        <label for="textInput"><b>Enter Text:</b></label>
+        <input id="textInput" type="text" value="10101010101" required />
+        <input type="button" value="Submit" onclick="results()" />
+      </form>
+    </div>
+    <p id="definition">
+      <b>pal·in·drome /ˈpalənˌdrōm/ noun:</b> a word, phrase, or sequence that
+      reads the same backward as forward.
+    </p>
+    <p><i>Results display here...</i></p>
+    <div id="results">
+      <div id="app"></div>
+    </div>
+  </body>
+  <script src="./src/index.js"></script>
+</html>

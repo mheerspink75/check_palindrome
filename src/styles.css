@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+
+#title {
+  font-size: xx-large;
+  animation-name: titleColor;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  opacity: .75;
+}
+@keyframes titleColor {
+  0% {
+    color: black;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color: whitesmoke;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: whitesmoke;
+  }
+}
+
+#definition {
+  text-align: center;
+  font-size: large;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background-image: linear-gradient(
+    to right,
+    whitesmoke,
+    lightgray,
+    whitesmoke
+  );
+}
+
+#results {
+  display: flex;
+  justify-content: center;
+  animation-name: resultsColor;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes resultsColor {
+  to {
+    background-color: whitesmoke;
+  }
+}
+
+
