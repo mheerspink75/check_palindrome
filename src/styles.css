@@ -1,10 +1,15 @@
+@media screen and (max-width: 320px) {
+  body {
+    font-size: small;
+  }
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: whitesmoke;
-  margin-top: 2rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-bottom: 2rem;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 5rem;
 }
 
 .header {
@@ -15,11 +20,10 @@ body {
 }
 
 #title {
-  font-size: xx-large;
   animation-name: titleColor;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-  opacity: .75;
+  opacity: 0.75;
 }
 @keyframes titleColor {
   0% {
@@ -41,7 +45,6 @@ body {
 
 #definition {
   text-align: center;
-  font-size: large;
 }
 
 .input {
@@ -69,5 +72,3 @@ body {
     background-color: whitesmoke;
   }
 }
-
-
