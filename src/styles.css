@@ -9,14 +9,14 @@ body {
   background-color: whitesmoke;
   max-width: 500px;
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 50px;
 }
 
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  height: 50px;
 }
 
 #title {
@@ -51,7 +51,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  height: 75px;
   background-image: linear-gradient(
     to right,
     whitesmoke,
